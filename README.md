@@ -12,16 +12,15 @@ An **AI-powered web app** that converts plain text into a **structured, colorful
 
 ---
 
-## 🗂️ Folder Structure
-```markdown
-**    AI-Mindmap/**
+##  Folder Structure
+**AI-Mindmap/**
         │
         ├── app.py # Streamlit web app (v1)
         ├── llm_extract.py # Hugging Face API logic
         ├── requirements.txt # Dependencies
         ├── README.md # Documentation
         └── .gitignore # Excludes venv and .env
-```
+
 ---
 
 ## ⚙️ Setup Instructions
@@ -31,13 +30,11 @@ An **AI-powered web app** that converts plain text into a **structured, colorful
     git clone https://github.com/YOUR-USERNAME/AI-Mindmap.git
     cd AI-Mindmap
 ```
-```markdown
 ### 2️⃣ Create Virtual Environment
 ```bash    
     python -m venv venv
 ```
 ### 3️⃣ Activate it
-```markdown
     - Windows (PowerShell):
 ```bash
         .\venv\Scripts\Activate.ps1
@@ -59,8 +56,6 @@ Create a .env file in the project root:
 ```bash
     streamlit run app.py
 ```
-```
-```
 ## 🧩 Example
     
     The Renaissance of Humanism
@@ -69,7 +64,7 @@ Create a .env file in the project root:
 ## 🖼️ Preview
 
 ### 💻 App Screenshot
-![App Screenshot](https://user-images.githubusercontent.com/YOUR-USERNAME/mindmap_preview.png)
+![App Screenshot](https://user-images.githubusercontent.com/Harris-JS/mindmap_preview.png)
 
 
 ## 👨‍💻 Author
