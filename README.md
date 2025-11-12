@@ -12,17 +12,6 @@ An **AI-powered web app** that converts plain text into a **structured, colorful
 
 ---
 
-##  Folder Structure
-**AI-Mindmap/**
-        │
-        ├── app.py # Streamlit web app (v1)
-        ├── llm_extract.py # Hugging Face API logic
-        ├── requirements.txt # Dependencies
-        ├── README.md # Documentation
-        └── .gitignore # Excludes venv and .env
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
@@ -35,11 +24,11 @@ An **AI-powered web app** that converts plain text into a **structured, colorful
     python -m venv venv
 ```
 ### 3️⃣ Activate it
-    - Windows (PowerShell):
+Windows (PowerShell):
 ```bash
         .\venv\Scripts\Activate.ps1
 ```
-    - Mac/Linux:
+Mac/Linux:
 ```bash
         source venv/bin/activate
 ```
@@ -48,7 +37,7 @@ An **AI-powered web app** that converts plain text into a **structured, colorful
         pip install -r requirements.txt
 ```
 ### 5️⃣ Add your Hugging Face Token
-Create a .env file in the project root:
+Create a .env file in the project root and include the following:
 ```ini
     HF_TOKEN=hf_your_generated_token_here
 ```
@@ -56,22 +45,31 @@ Create a .env file in the project root:
 ```bash
     streamlit run app.py
 ```
+---
+
 ## 🧩 Example
     
-    The Renaissance of Humanism
         The Renaissance, spanning roughly the 14th to the 16th centuries, was an era defined by a dramatic shift in intellectual focus, moving from the God-centered worldview of the Middle Ages to the anthropocentric (human-centered) philosophy of Humanism. This pivotal movement sought to recover, study, and apply the literature, art, and philosophy of classical antiquity, particularly Greek and Roman culture, not merely for religious context but for their inherent value in understanding the human experience. Central to Humanism was the belief in the dignity and potential of the individual, fostering an intense curiosity that fueled advancements in art, science, and governance. Thinkers like Petrarch championed the studia humanitatis (studies of humanity), emphasizing grammar, rhetoric, history, poetry, and moral philosophy—subjects considered essential for cultivating a virtuous and engaged citizenry. This intellectual rebirth laid the foundational groundwork for the Enlightenment and remains a profound example of how rediscovering past wisdom can radically reshape present and future civilization.
+
+---
 
 ## 🖼️ Preview
 
 ### 💻 App Screenshot
-![App Screenshot](https://user-images.githubusercontent.com/Harris-JS/mindmap_preview.png)
+![App Screenshot](assests/mindmap_preview.png)
 
-
-## 👨‍💻 Author
-
-**Harris Selvaraj J**
-Built using Python, NLP, Hugging Face, NetworkX, and Streamlit
+---
 
 ## 🏷️ Version
 
 Version 1.0 (Stable Release)
+
+---
+
+## 👨‍💻 Author
+
+### Harris Selvaraj J
+Built using Python, NLP, Hugging Face, NetworkX, and Streamlit
+
+
+
