@@ -56,7 +56,7 @@ Create a .env file in the project root and include the following:
 ## 🖼️ Preview
 
 ### 💻 App Screenshot
-![App Screenshot](assests/mindmap_preview.png)
+![App Screenshot](assests/mindmap-preview.png)
 
 ---
 
